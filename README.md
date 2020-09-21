@@ -10,5 +10,5 @@ Goals are to improve overall programming skills, improve upon Python skills. Lea
 Any information used will be referenced. 
 
 Textbooks I will be using are:
-Python Crash Course (Eric Matthes), 
-Hands-On Machine Learning with Scikit-Learn Keras & TensorFlow 2nd Edition (Géron)
+-Python Crash Course (Eric Matthes), 
+-Hands-On Machine Learning with Scikit-Learn Keras & TensorFlow 2nd Edition (Géron)
