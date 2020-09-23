@@ -1,2 +1,4 @@
-## DAILY LOG TEMPLATE ##
+## DATE - DAILY LOG TEMPLATE ##
+
+* List items
 
