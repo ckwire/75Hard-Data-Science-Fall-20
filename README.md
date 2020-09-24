@@ -25,5 +25,5 @@ Textbooks I will be using are:
   * Data (16), APIs (17)
   * Web Django (18-20)
   
-* Personal Project - WITS 2.0 Python (rebuild old PHP program into Python & Django)
+* Personal Project - WITS 2.0 Python (rebuild old [WITS](https://github.com/ckwire/WITS) PHP version into Python & Django)
   
