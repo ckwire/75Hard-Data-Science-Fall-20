@@ -27,3 +27,4 @@ Textbooks I will be using are:
   
 * Personal Project - WITS 2.0 Python (rebuild old [WITS](https://github.com/ckwire/WITS) PHP version into Python & Django)
   
+* Start ML/AI book & learning
