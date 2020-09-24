@@ -13,3 +13,17 @@ Textbooks I will be using are:
 * Python Crash Course (Eric Matthes)
 * Hands-On Machine Learning with Scikit-Learn Keras & TensorFlow 2nd Edition (Géron)
 * Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python (Bruce, Peter)
+
+
+**Rough Schedule:**
+* Python (Python Crash Course chapter reference)
+  * Basics
+  * Input (7), Functions (8)
+  * Classes (9)
+  * Files (10), Testing (11)
+  * Project 2 (15)
+  * Data (16), APIs (17)
+  * Web Django (18-20)
+  
+* Personal Project - WITS 2.0 Python (rebuild old PHP program into Python & Django)
+  
