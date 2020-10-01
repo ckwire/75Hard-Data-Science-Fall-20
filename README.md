@@ -1,4 +1,4 @@
-## 75Hard - 75 Days of Data Science & Machine Learning 
+## 75Hard > 75 Days of Data Science & Machine Learning 
 
 This page will be used to track daily progress starting on Sept 28, 2020 of my 75 Days of Data Science.
 I will be working throw improving my Python skills as that is a new language for me. I will then progress onto a Python web framework (Flask or Django) which I have not picked yet. Then will start working through Data Science and Machine Learning topics and frameworks. 
