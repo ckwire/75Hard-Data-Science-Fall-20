@@ -22,7 +22,7 @@ Textbooks I will be using are:
 * Python (Python Crash Course chapter reference)
   * [x] Basics
   * [x] Input (7)
-  * [x]Functions (8)
+  * [x] Functions (8)
   * [ ] Classes (9)
   * [ ] Files (10), Testing (11)
   * [ ] Project 2 (15)
