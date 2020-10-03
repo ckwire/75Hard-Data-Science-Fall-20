@@ -1,4 +1,4 @@
-## OCTOBER 1st 2020 - DAY 1 - DAILY LOG TEMPLATE ##
+## OCTOBER 1st 2020 - DAY 1 - DAILY LOG ##
 
 * User Input and While Loop
     * just working with the Input() function.
