@@ -21,7 +21,8 @@ Textbooks I will be using are:
 **Rough Schedule:**
 * Python (Python Crash Course chapter reference)
   * [x] Basics
-  * [ ] Input (7), Functions (8)
+  * [x] Input (7)
+  * [x]Functions (8)
   * [ ] Classes (9)
   * [ ] Files (10), Testing (11)
   * [ ] Project 2 (15)
