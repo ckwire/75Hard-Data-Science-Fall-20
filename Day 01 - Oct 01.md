@@ -9,5 +9,6 @@
 
 * Functions 
     * read about passing different types of arguments, and overall function syntax for Python.
-    * reference: Python Crash Course 
+
+* Reference(s): Python Crash Course 
 
