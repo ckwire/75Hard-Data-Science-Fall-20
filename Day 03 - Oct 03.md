@@ -10,24 +10,31 @@
     * Refreshing class syntax for Python and actually learning today! 
 
     ```python
+    #it is possible when I copy this from my working file to this code section the formatting will all adjust to the left. Technically cause an error with the class and method definitions.
    class Employee:
-    
-    def __init__(self, first, last, pay):
-        self.first = first
-        self.last = last
-        self.pay = pay
-        self.email = first + '.' + last + '@email.com'
 
-    def fullname(self):
-        return '{} {}'.format(self.first, self.last)
-        #using '{}'.format(var) is a newer syntax to me - allows good to check Python docs to learn more!
+        raise_amount = 1.04
+        
+        def __init__(self, first, last, pay):
+            self.first = first
+            self.last = last
+            self.pay = pay
+            self.email = first + '.' + last + '@email.com'
+
+        def fullname(self):
+            return '{} {}'.format(self.first, self.last)
+            #using '{}'.format(var) is a newer syntax to me - allows good to check Python docs to learn more!
+
+        def apply_raise(self):
+            self.pay = int(self.pay * self.raise_amount)
 
 
     emp_1 = Employee('Johnny', 'Appleseed', 50000)
     emp_2 = Employee('Bob', 'Roberts', 72500)
 
-    print(emp_1.email)
-    print(emp_2.fullname())
+    print(emp_1.pay)
+    emp_1.apply_raise()
+    print(emp_1.pay)
     ```
 
 * Random tidbits
