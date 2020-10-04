@@ -10,21 +10,32 @@
     * Refreshing class syntax for Python and actually learning today! 
 
     ```python
-    #allows for middle name arg to be ignored
-    def get_formatted_name(first_name, last_name, middle_name=''):
-        if middle_name:
-            full_name = first_name + ' ' + middle_name + ' ' + last_name
-        else:
-            full_name = first_name + ' ' + last_name
-        return full_name.title()
+   class Employee:
+    
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + '.' + last + '@email.com'
 
-    musician = get_formatted_name('jimi', 'hendrix')
-    print(musician)
+    def fullname(self):
+        return '{} {}'.format(self.first, self.last)
+        #using '{}'.format(var) is a newer syntax to me - allows good to check Python docs to learn more!
 
-    musician = get_formatted_name('john', 'hooker', 'lee')
-    print(musician)
+
+    emp_1 = Employee('Johnny', 'Appleseed', 50000)
+    emp_2 = Employee('Bob', 'Roberts', 72500)
+
+    print(emp_1.email)
+    print(emp_2.fullname())
     ```
 
+* Random tidbits
+    Learning to copy line down/up in VS Code
 
-* reference: [Corey Schafer - Python OOP Tutorial 1: Classes and Instances](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&t=580s)
+
+* reference: 
+    * [Corey Schafer - Python OOP Tutorial 1: Classes and Instances](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&t=580s)
+    * [Python.org Advance Str Formatting](https://www.python.org/dev/peps/pep-3101/)
+
 
