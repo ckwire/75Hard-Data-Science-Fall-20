@@ -1,4 +1,4 @@
-## OCTOBER 3nd 2020 - DAY 3 - DAILY LOG ##
+## OCTOBER 3rd 2020 - DAY 3 - DAILY LOG ##
 
 * Finding Purpose
     Sometimes it is good to make sure you have defined the goals and meeting them. This challenge so far has been my end of day routine and is getting neglected.
