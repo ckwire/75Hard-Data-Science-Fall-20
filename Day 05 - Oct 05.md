@@ -16,5 +16,6 @@ You might ask why a project that is Data Science related? This is more taking th
 
 * reference: 
     * [Real Python Using Google Login with Flask](https://realpython.com/lessons/google-login-flask-overview/)
+    Will be using RealPython.com as a reference more too.
 
 
