@@ -1,20 +1,8 @@
-#Errors & Exceptions
-
-f = open('C:\\Users\\chad\\Desktop\\somefile.txt')
-'''
-x = -4
-if x < 0:
-    raise Exception('X should be positive')'''
+import sys
 
 try:
-    a = 5 / 10
-#except:
-#   print('An error occurred!')
-#except Exception as e:
-#    print(e)
-except ZeroDivisionError as e:
-    print(e)
-except TypeError as e:
-    print(e)
-else:
-    print('{} {}'.format("Everything is fine! Answer is", a))
+    with open('pi_di0its.txt') as file_object:
+        contents = file_object.read()
+        print(contents)
+except FileNotFoundError as e:
+    print("File error! Please try again.")

@@ -1,30 +1,19 @@
-## OCTOBER 6th 2020 - DAY 6 - DAILY LOG ##
+## OCTOBER 7th 2020 - DAY 7 - DAILY LOG ##
 
 * What to do today?
 
-Exception & Error Handling
+Files anybody?
 
 ```python
-#Errors & Exceptions
-
-f = open('C:\\Users\\chad\\Desktop\\somefile.txt')
-'''
-x = -4
-if x < 0:
-    raise Exception('X should be positive')'''
+#working with Files & applying except handling from yesterday.
 
 try:
-    a = 5 / 10
-    #except:
-    #   print('An error occurred!')
-    #except Exception as e:
-    #    print(e)
-    except ZeroDivisionError as e:
-        print(e)
-    except TypeError as e:
-        print(e)
-    else:
-        print('{} {}'.format("Everything is fine! Answer is", a))
+    with open('pi_di0its.txt') as file_object:
+        contents = file_object.read()
+        print(contents)
+except FileNotFoundError as e:
+    print("File error! Please try again.")
+
 ```
 
 
