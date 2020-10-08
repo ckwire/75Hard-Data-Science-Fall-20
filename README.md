@@ -8,7 +8,7 @@ I will be working throw improving my Python skills as that is a new language for
   * Can be tutorial or video, or coding.
 * [ ] Commit a **daily** log of what was done along with any code files.
 
-Goals are to improve overall programming skills, improve upon Python skills. Learn new data science framworks.
+Goals are to improve overall programming skills, improve upon Python skills. Learn new data science frameworks.
 
 Any information used will be referenced. 
 
@@ -23,7 +23,7 @@ Textbooks I will be using are:
   * [x] Basics
   * [x] Input (7)
   * [x] Functions (8)
-  * [ ] Classes (9)
+  * [x] Classes (9)
   * [ ] Files (10), Testing (11)
   * [ ] Project 2 (15)
   * [ ] Data (16), APIs (17)
