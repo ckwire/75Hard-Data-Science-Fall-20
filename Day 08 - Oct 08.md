@@ -31,11 +31,18 @@ How about a Data Science Hands-On Crash Course!
 
     X = data['TV'].values.reshape(-1,1)
     y = data['sales'].values.reshape(-1,1)
-
     reg = LinearRegression()
     reg.fit(X, y)
-
     print(f"The linear model is: \n Y = {reg.intercept_[0]} + {reg.coef_[0][0]}*TV")
+
+
+    predictions = reg.predict(X)
+    plt.figure(figsize=(16,8))
+    plt.scatter(X, y, c='Black')
+    plt.plot(X, predictions, c='blue', linewidth=2)
+    plt.xlabel('Money spent on TV ads ($)')
+    plt.ylabel('Sales (k$)')
+    plt.show()
 ```
 
 * reference: 
