@@ -20,6 +20,22 @@ How about a Data Science Hands-On Crash Course!
     #importing data
     data = pd.read_csv('C:\\Users\\chad\\Desktop\\dswithmarco\\data\\Advertising.csv', index_col=0)
     data.head()
+
+    ##Simple Linear Regression
+    plt.figure(figsize=(16,8))
+    plt.scatter(data['TV'], data['sales'], c='black')
+    plt.xlabel('Money spent on TV ads ($)')
+    plt.ylabel('Sales (k$)')
+    plt.show()
+
+
+    X = data['TV'].values.reshape(-1,1)
+    y = data['sales'].values.reshape(-1,1)
+
+    reg = LinearRegression()
+    reg.fit(X, y)
+
+    print(f"The linear model is: \n Y = {reg.intercept_[0]} + {reg.coef_[0][0]}*TV")
 ```
 
 * reference: 
