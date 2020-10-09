@@ -43,6 +43,13 @@ How about a Data Science Hands-On Crash Course!
     plt.xlabel('Money spent on TV ads ($)')
     plt.ylabel('Sales (k$)')
     plt.show()
+
+    ##Printing Summary
+    X = data['TV']
+    y = data['sales']
+    exog = sm.add_constant(X)
+    est = sm.OLS(y, exog).fit()
+    print(est.summary())
 ```
 
 * reference: 
