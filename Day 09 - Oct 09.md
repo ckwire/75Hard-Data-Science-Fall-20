@@ -61,6 +61,14 @@ How about a Data Science Hands-On Crash Course... Continued!
     reg.fit(Xs, y)
 
     print(f"The linear model is: \n Y = {reg.intercept_[0]} + {reg.coef_[0][0]}*TV + {reg.coef_[0][1]}*radio + {reg.coef_[0][2]}*newspaper")
+
+    X = np.column_stack((data['TV'], data['radio'], data['newspaper']))
+    y = data['sales'].values.reshape(-1, 1)
+
+    exog = sm.add_constant(X)
+    est = sm.OLS(y, exog).fit()
+
+    print(est.summary())
 ```
 
 Video timestamp for tonight: 00:00
