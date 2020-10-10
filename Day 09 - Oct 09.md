@@ -71,7 +71,7 @@ How about a Data Science Hands-On Crash Course... Continued!
     print(est.summary())
 ```
 
-Video timestamp for tonight: 00:00
+Video timestamp for tonight: 21:01
 
 * reference: 
     * [Data Science Hands-On Crash Course](https://www.youtube.com/watch?v=XU5pw3QRYjQ)
