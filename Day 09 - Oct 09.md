@@ -50,6 +50,17 @@ How about a Data Science Hands-On Crash Course... Continued!
     exog = sm.add_constant(X)
     est = sm.OLS(y, exog).fit()
     print(est.summary())
+
+    ## Continuation Point Day 8
+    ## Multiple linear regression
+
+    Xs = data.drop(['sales'], axis=1)
+    y = data['sales'].values.reshape(-1,1)
+
+    reg = LinearRegression()
+    reg.fit(Xs, y)
+
+    print(f"The linear model is: \n Y = {reg.intercept_[0]} + {reg.coef_[0][0]}*TV + {reg.coef_[0][1]}*radio + {reg.coef_[0][2]}*newspaper")
 ```
 
 Video timestamp for tonight: 00:00
