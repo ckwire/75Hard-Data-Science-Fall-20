@@ -35,6 +35,8 @@
 
     plot_data(hue, data_to_plot)
 
+    for col in data.columns:
+        print(f"{col}: {data[col].isnull().sum()}")
 
 ```
 
