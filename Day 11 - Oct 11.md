@@ -25,6 +25,17 @@
     x = data['class']
     ax = sns.countplot(x=x, data=data)
 
+    def plot_data(hue, data):
+        for i, col in enumerate(data.columns):
+            plt.figure(i)
+            ax = sns.countplot(x=data[col], hue=hue, data=data)
+
+    hue = data['class']
+    data_to_plot = data.drop('class', axis=1)
+
+    plot_data(hue, data_to_plot)
+
+
 ```
 
 
